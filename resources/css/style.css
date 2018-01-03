@@ -1,19 +1,49 @@
-/* element styling */
+/* etc. */
 
 
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
 
+a {
+  color: black;
+}
 
-/* ID styling */
+/* Header */
 
-
-
-/* class stying */
-
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
 
 .logo {
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+}
+
+.logo span {
+  color: mediumaquamarine;
+}
+
+.logo img {
+  height: 60px;
+  width: 70px;
+  margin-right: 12px;
+}
+
+header nav {
+  padding-right: 40px;
 }
